@@ -1,0 +1,18 @@
+# Build output (CMake, GCC ARM)
+build/
+cmake-build-*/
+
+# CLion / JetBrains IDE
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# STM32CubeMX generated artifacts (nếu có sinh file tạm)
+*.bak
+*.d
+*.crf
+*.o
+*.elf
+*.bin
+*.hex
+*.map
